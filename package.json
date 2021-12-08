@@ -1,0 +1,17 @@
+{
+  "name": "rest-sd-2021-2",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/rafaelfl/rest-sd-2021-2.git",
+  "author": "Rafael Fernandes Lopes <rafael.fernandes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
