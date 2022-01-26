@@ -6,12 +6,21 @@
   "author": "Rafael Fernandes Lopes <rafael.fernandes@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "serve": "node src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "_moduleAliases": {
+    "@controller" : "src/controller",
+    "@middleware" : "src/middleware",
+    "@model" : "src/model",
+    "@routes" : "src/routes",
+    "@service" : "src/service"
   }
 }

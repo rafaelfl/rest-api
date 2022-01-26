@@ -1,9 +1,7 @@
-const http = require('http');
+require('module-alias/register')
 const { app } = require('./app');
 const PORT = process.env.PORT || 3000;
 
-const server = http.createServer(app);
-
-server.listen(PORT, () => {
-    console.log(`Serviço executando na porta: ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`🚀 We are live on port ${PORT}.`);
 });

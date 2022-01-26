@@ -1,7 +1,7 @@
 
-const bd = {
-    pedidos: [],
-    cardapio: [
+const fakedb = {
+    orders: [],
+    menu: [
         {
             id: 1,
             nome: 'Calabresa',
@@ -24,5 +24,5 @@ const bd = {
 };
 
 module.exports = {
-    bd
+    fakedb
 };
