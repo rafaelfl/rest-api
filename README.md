@@ -4,7 +4,8 @@
 
 ## About
 
-<p align="center">Small educational project developed with the objective of presenting the concepts related to the development of backend REST APIs with Node.js for the course *Distributed Systems* (2021.2) of the Computer Engineering Course - Federal University of Maranhão (UFMA)
+<p align="center">
+  Small educational project developed with the objective of presenting the concepts related to the development of backend REST APIs with Node.js for the course *Distributed Systems* (2021.2) of the Computer Engineering Course - Federal University of Maranhão (UFMA)
 </p>
 
 
